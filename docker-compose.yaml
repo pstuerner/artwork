@@ -1,0 +1,12 @@
+version: '3.1'
+
+services:
+  everydays:
+    build:
+      context: .
+      dockerfile: Dockerfile.app
+    image: everydays:latest
+    container_name: everydays
+    network_mode: "host"
+    env_file:
+      - .env
