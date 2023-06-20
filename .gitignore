@@ -1,2 +1,4 @@
 .env
 *.egg-info
+artwork/data/temp/*
+!artwork/data/temp/__init__.py
